@@ -78,6 +78,19 @@ export default function Home() {
             <p>{generalData.about}</p>
           </div>
         </section>
+        <section className="my-4 text-sm">
+          <h3 className="text-slate-900">Schedule a Meeting</h3>
+          <div className="flex flex-col gap-6">
+            <a
+              href="https://calendly.com/jimmymuller/meetup-convo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-900 dark:text-slate-100 hover:underline"
+            >
+              Schedule a meetup conversation
+            </a>
+          </div>
+        </section>
         {contentData.map((content, index) => {
           return <Content {...content} key={index} />;
         })}
