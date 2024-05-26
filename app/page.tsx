@@ -3,6 +3,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/general";
 import { contentData } from "@/data/content";
 import type { Content } from "@/data/content";
+import pic from './a.jpeg'
 
 type ContentProps = Content;
 
@@ -43,7 +44,7 @@ export default function Home() {
         <section className="flex items-center">
           <Image
             alt="Author"
-            src={generalData.avatar}
+            src={pic}
             width={80}
             height={80}
             className="rounded-full object-cover"
@@ -55,7 +56,7 @@ export default function Home() {
             <p className="text-slate-600 dark:text-slate-300 text-sm">
               {generalData.jobTitle}
             </p>
-            {generalData.website ? (
+            {!!generalData?.website ? (
               <span className="text-sm text-slate-400 dark:text-slate-400">
                 <a
                   href={generalData.website}

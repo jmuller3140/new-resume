@@ -1,30 +1,15 @@
 export const generalData = {
-  name: "John Doe",
-  avatar: "https://github.com/ibelick.png",
-  jobTitle: "Senior Front-End Developer",
-  website: "https://www.julienthibeaut.xyz",
+  name: "Jimmy Muller",
+  avatar: "public/a.jpeg",
+  jobTitle: "Product Engineer / Builder",
+  website: '',
   about:
-    "Hey there! I'm John, a senior front-end developer with 10 years of experience in web development.",
+    "Jimmy is a dynamic software engineer with a passion for building profitable and valuable businesses. Combining technical expertise with strategic vision to drive innovation and growth. Jimmy thrives on scaling companies, assembling cohesive engineering teams, and working closely with sales teams, CEOs, and founders to achieve product-market fit.",
   contacts: [
     {
       label: "Email",
-      value: "john.doe@gmail.com",
-      href: "mailto:john.doe@gmail.com",
-    },
-    {
-      label: "Twitter",
-      value: "ibelick",
-      href: "https://twitter.com/ibelick",
-    },
-    {
-      label: "Github",
-      value: "ibelick",
-      href: "https://github.com/ibelick",
-    },
-    {
-      label: "Read.CV",
-      value: "ibelick",
-      href: "https://read.cv/ibelick",
+      value: "jmuller3140@gmail.com",
+      href: "mailto:jmuller3140@gmail.com",
     },
   ],
 };
